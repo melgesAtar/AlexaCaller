@@ -1,7 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
 import alexaVerifier from "alexa-verifier";
-
+const port = process.env.PORT || 3000;
+const app = express();
 var isFisrtTime = true;
 const SKILL_NAME = "Heróis da Disney";
 const GET_HERO_MESSAGE = "Aqui está o seu herói: ";

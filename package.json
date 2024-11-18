@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "type": "commonjs",
+  "type": "module",
   "keywords": [
     "alexa",
     "disney",
