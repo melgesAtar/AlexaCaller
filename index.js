@@ -1,8 +1,7 @@
-let express = require("express"),
-  bodyParser = require("body-parser"),
-  port = process.env.PORT || 3000,
-  app = express();
-let alexaVerifier = require("alexa-verifier");
+import express from "express";
+import bodyParser from "body-parser";
+import alexaVerifier from "alexa-verifier";
+
 var isFisrtTime = true;
 const SKILL_NAME = "Heróis da Disney";
 const GET_HERO_MESSAGE = "Aqui está o seu herói: ";
