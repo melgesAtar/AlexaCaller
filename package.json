@@ -2,10 +2,11 @@
   "name": "disney-heroes",
   "version": "1.0.0",
   "description": "Skill da Alexa para listar heróis da Disney.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "type": "commonjs",
   "keywords": [
     "alexa",
     "disney",
